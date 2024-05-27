@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'ABC';
+    src: url(/font/abecedary/Abecedary-Regular.ttf) format('truetype');
+}
+
+body, button{
+    background-color: #352031;
+    font-family: 'ABC';
+}
+
+nav {
+    font-size: 26pt;
+    text-align: center;
+}
+
+article {
+    color: beige;
+    display: inline-block;
+    position: relative;
+    left: 25%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18pt;
+    padding: 8px;
+    border: 5px solid;
+    border-color: azure;
+}
+
+h2,h1,label{
+    font-size: 26pt;
+    text-align: center;
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.imgpos {
+    position: relative;
+    left: 20%;
+}
+
+footer {
+    color: aliceblue;
+    font-size: 16pt;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+}
+
+.letra {
+    font-weight: normal;
+    border: 10px solid;
+    color: aliceblue;
+    border-radius: 25px 100px;
+    box-shadow: 0px 0px 45px #fff;
+    position: relative;
+    left: 35%;
+    text-align: center;
+    padding: 15px;
+}
+
+.vid {
+    position: relative;
+    left: 30%;
+    padding: 5px;
+    border: 5px solid;
+    color: aliceblue;
+    border-radius: 6px 6px;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.tab {
+    border: 0;
+    font-size: 32pt;
+    position: relative;
+    left: 30%;
+}
+
+table,th,tr,td {
+    padding: 10px;
+    border: 5px solid;
+    border-radius: 15px 15px;
+    text-align: center;
+}
+
+.form,option,textarea {
+    font-size: 18pt;
+    margin: 5px;
+    color: #ffffff;
+    background-color: black;
+    border: 5px solid;
+    color: rgb(255, 255, 255);
+    margin-right: 800px;
+    position: relative;
+    left: 20%;
+    padding: 15px;
+}
+
+select {
+    font-size: 18pt;
+}
+
+button{
+    width: 100%;
+    background-color: black;
+    border: 2px solid;
+    color: gray;
+    font-size: 30pt;
+    color: aliceblue;
+    padding: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
